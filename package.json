@@ -1,0 +1,17 @@
+{
+  "name": "echobot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lichi <aldy120@yahoo.com.tw>",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/client": "^4.3.1"
+  }
+}
