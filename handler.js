@@ -8,7 +8,6 @@ function isBot(body) {
 }
 
 module.exports.event = (event, context, callback) => {
-  console.log(event)
   const body = event.body && JSON.parse(event.body)
 
   // verfied event api challnege token
