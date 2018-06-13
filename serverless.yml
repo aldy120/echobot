@@ -6,8 +6,6 @@ provider:
   region: ap-northeast-1
   profile: aldy120
   environment:
-    CLIENT_ID: ${file(local.yml):slack.clientId}
-    CLIENT_SECRET: ${file(local.yml):slack.clientSecret}
     ACCESS_TOKEN: ${file(local.yml):slack.accessToken}
 
 functions:
