@@ -26,11 +26,13 @@ module.exports.event = (event, context, callback) => {
   //process channel message
   const text = body.event.text
   const conversationId = body.event.channel
-  console.log(text, conversationId)
+
+  // log receive text and channel id
+  console.log({text, conversationId})
 
   // do not response a bot
   if (isBot(body)) {
-    console.log('This is a bot so I will not reply')
+    console.log({info: 'This is a bot message which do not be replied'})
     callback(null, {
       statusCode: 200
     });

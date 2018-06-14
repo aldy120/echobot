@@ -9,7 +9,7 @@
 git clone https://github.com/aldy120/echobot.git
 ```
 ## 建立 local.yml 檔案
-建立一個 local.yml 檔案，內容類似下面這樣，其中 token 要填寫 slack 給你的 bot OAuth token 。此 token 必須可以 send message 。
+建立一個 local.yml 檔案，內容類似下面這樣，其中 token 要填寫 slack 給你的 bot OAuth token 。此 token 必須可以 send message 。你需要先開通一個 bot ，再去申請一個 OAuth token 。
 
 ```yml
 slack:
